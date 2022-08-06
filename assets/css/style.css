@@ -70,7 +70,7 @@ body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    color: var(--second-color);
+    background-color:black;
 }
 
 h1,h2,p{
@@ -229,8 +229,13 @@ img{
 .home__title{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
+    color: white;
 }
 
+.about__text
+{
+    color: white;
+}
 .home__title-color{
     color: var(--first-color);
 }
@@ -282,6 +287,7 @@ img{
 
 .about__subtitle{
     margin-bottom: var(--mb-2);
+    color: #fff;
 }
 
 .about__img{
@@ -302,6 +308,9 @@ img{
     text-align: center;
 }
 
+.skills__percentage{
+    color: white;
+}
 .skills__subtitle{
     margin-bottom: var(--mb-2);
 }
@@ -325,6 +334,10 @@ img{
 .skills__names{
     display: flex;
     align-items: center;
+}
+
+.skills__name{
+    color: white;
 }
 
 .skills__bar{

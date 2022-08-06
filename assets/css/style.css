@@ -139,7 +139,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: rgb(1, 0, 0);
+    background-color: rgb(4, 16, 48);
     box-shadow: 0 1px 4px rgba(146, 161, 176,   .15);
 }
 
